@@ -1,0 +1,65 @@
+### .gitignore template
+# Игнорировать виртуальное окружение Python
+venv/
+env/
+.venv/
+
+# Игнорировать кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyd
+*.pyo
+
+# Игнорировать файлы настроек PyCharm и других IDE
+.idea/
+*.iml
+.vscode/
+
+# Игнорировать логи и базы данных
+*.log
+*.sqlite3
+
+# Игнорировать скрытые файлы и директории
+.*
+!.gitignore
+
+# Игнорировать временные файлы
+*.tmp
+*.swp
+*.swo
+
+# Игнорировать файлы зависимостей
+*.egg-info/
+dist/
+build/
+
+# Игнорировать файлы специфичные для ОС
+Thumbs.db
+.DS_Store
+
+# Игнорировать файлы конфигурации и среды
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+*.ini
+*.cfg
+*.conf
+
+# Игнорировать Jupyter Notebook
+.ipynb_checkpoints/
+
+# Игнорировать файлы тестов
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Игнорировать файлы данных (например, CSV, JSON и т.д.)
+*.csv
+*.json
+*.xlsx
+*.db
+*.sqlite
